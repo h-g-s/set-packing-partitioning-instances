@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.ruff_cache/
+metadata/feature-extraction/
+results/*/raw/
+results/*/bin/
+results/*/*.log
+results/*/tasks.tsv
+results/*/status.json
+results/*/joblog-*.tsv
+results/*/COMPLETE
+results/*/FAILED
+results/*/*.tar.gz

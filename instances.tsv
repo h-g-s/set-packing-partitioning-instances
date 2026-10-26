@@ -1,0 +1,48 @@
+instance	rows	columns	nonzeros	partitioning	packing	other_rows	cohort	native_slack_rows	native_eligible	sense	origin	source_url	license	sha256
+air03	124	10757	91028	124	0	0	pure	118	0	min	MIPLIB 2017	https://miplib.zib.de/instance_details_air03.html	Original MIPLIB terms	3ad400c1afb949cf75b3da5fd7e74cff034684f3acdeb893e8e2c6e9fa934557
+air04	823	8904	72965	823	0	0	pure	0	0	min	MIPLIB 2017	https://miplib.zib.de/instance_details_air04.html	Original MIPLIB terms	54f5958f9d3395c45b7dfe70507117777ad914f42f4cd07d50d291bdb6a324a6
+air05	426	7195	52121	426	0	0	pure	0	0	min	MIPLIB 2017	https://miplib.zib.de/instance_details_air05.html	Original MIPLIB terms	8e03d2b90834dc1fe15c908247fdd8baf76e208aa310508caa0734e5245692cc
+cdc7-4-3-2	14478	11811	259842	0	14478	0	pure	0	0	min	MIPLIB 2017	https://miplib.zib.de/instance_details_cdc7-4-3-2.html	Original MIPLIB terms	7cb233a7b3df00065ebe43aff1e991ff2884e5defa8cc951b0c568ab25a754f4
+cod105	1024	1024	57344	0	1024	0	pure	0	0	min	MIPLIB 2017	https://miplib.zib.de/instance_details_cod105.html	Original MIPLIB terms	f0007f47d356d70d1843e371ac75c7dbfdef4a2947785d47059e61821097e15a
+ds-big	1042	174997	4623442	1042	0	0	pure	1042	1	min	MIPLIB 2017	https://miplib.zib.de/instance_details_ds-big.html	Original MIPLIB terms	1114f15fea99c5719b3d80ff766da83b28b49ff1fe3b8912cf6d012bd39bacb9
+ds	656	67732	1024059	656	0	0	pure	656	1	min	MIPLIB 2017	https://miplib.zib.de/instance_details_ds.html	Original MIPLIB terms	21e91edbed3af66131a3f173149b0ef0cdb335f50f72f675bc2e589be971f4df
+eil33-2	32	4516	44243	32	0	0	pure	32	1	min	MIPLIB 2017	https://miplib.zib.de/instance_details_eil33-2.html	Original MIPLIB terms	2d349f8ba12aaf170c9f8bf85327d6592cc0f4d89d300dfb77197acd34a7ffb1
+eilA101-2	100	65832	959373	100	0	0	pure	100	1	min	MIPLIB 2017	https://miplib.zib.de/instance_details_eilA101-2.html	Original MIPLIB terms	b5e3dcc14719474fd6f58e4e090dc5e20add8a5858aaf9a6003e676238badf08
+eilA76	75	1422	10967	75	0	0	pure	75	1	min	Collected application		EPL-2.0	c5a1dad0e05d05c69bb8c3195fc148758ce755f275916eacccd131be13c2dd71
+eilB101.2	100	53444	577946	100	0	0	pure	100	1	min	Collected application		EPL-2.0	daaf9295a1f19fedcf90cfe319df8e96e9482e6549aabcbfb61f3b197e4c833d
+eilB101	100	2818	24120	100	0	0	pure	100	1	min	Collected application		EPL-2.0	0f27eec175bbfc29cdf0786bd20ab7d28ddee8ede0bebd64f97b56ce209e7e87
+eilB76	75	1060	6296	75	0	0	pure	75	1	min	Collected application		EPL-2.0	9023b3911fdd88acad72dda0e05d55df2b4158c3f41ff19d10fd25d4722796c2
+eilC76-2	75	28599	314837	75	0	0	pure	75	1	min	MIPLIB 2017	https://miplib.zib.de/instance_details_eilC76-2.html	Original MIPLIB terms	b8de2736ded25d43f5f4e63c6539f425fc309e27d410177898bd57dd3ba99ca0
+eilC76	75	1644	14673	75	0	0	pure	75	1	min	Collected application		EPL-2.0	37209c7d65aa5077b6ab29a1e27c5e2ebc75de48623faf06de59ab42cd43df66
+eilD76.2	75	30588	381749	75	0	0	pure	75	1	min	Collected application		EPL-2.0	cca357aca76d8b686de9a80db56018786ac5db16354c384c81ebd0e8e2b6af0d
+eilD76	75	1898	19111	75	0	0	pure	75	1	min	Collected application		EPL-2.0	6891b206c71e43493616264f738de9472954f780801c8830e7f9f16f1a204c1b
+irp	39	20315	98254	39	0	0	pure	39	1	min	MIPLIB 2017	https://miplib.zib.de/instance_details_irp.html	Original MIPLIB terms	c587a00599896816d3edf62c1bbed531c27000b635bcd0b9f913442a232792e7
+ivu06-big	1177	2277736	23125770	1177	0	0	pure	1177	1	min	MIPLIB 2017	https://miplib.zib.de/instance_details_ivu06-big.html	Original MIPLIB terms	804aef2f1868dbef52cdaf98acf1823c5b19bdc295be046fc043bf472a3c9894
+ivu06	1177	787239	8032303	1177	0	0	pure	1177	1	min	MIPLIB 2017	https://miplib.zib.de/instance_details_ivu06.html	Original MIPLIB terms	c1bc0aa446a73e76f0c17a332c543e2dd37b52ba5e024d1f0f8ea88c7d49a02c
+m100n500k4r1	100	500	2000	0	100	0	pure	0	0	min	Collected application		EPL-2.0	9637f3f99b3535f9285d79c3f2c85b0d9b69fac4feda027900dc924c3c396875
+neos-1440225	330	1285	14168	330	0	0	pure	0	0	min	Collected application		EPL-2.0	bf01cd7a79180122798510baaff1eecdf39712ef1442b505ee60b5189c938181
+neos-3226448-wkra	2208	10012	40048	2208	0	0	pure	0	0	min	MIPLIB 2017	https://miplib.zib.de/instance_details_neos-3226448-wkra.html	Original MIPLIB terms	30369351b7e9ee75bc2194894b8454a25b823199b8df747f7fe43e55a9d9a90e
+neos-807456	840	1635	4905	840	0	0	pure	0	0	min	Collected application		EPL-2.0	a7f2a0fa19b96ad580d2ad6d16643dfd8b5b6c6467f009f6592edf267d39bc2d
+nw04	36	87482	636666	36	0	0	pure	28	0	min	MIPLIB 2017	https://miplib.zib.de/instance_details_nw04.html	Original MIPLIB terms	c5ffad5996c481756028013399e052793e3ff3ec70e9f5f15c6bc471abe5389a
+p6b	5852	462	11704	0	5852	0	pure	0	0	min	Collected application		EPL-2.0	45fac8898c3c8bbd9a0321f499d8dff1d099873d2c10f3fdfa40649897452bd5
+pdistuchoa	26314	500	52628	0	26314	0	pure	0	0	min	Collected application		EPL-2.0	520e54df8dc1f5a5f1f0f311cdee5b1e393be31f5813c43c68d67e9ae16b56c3
+rmp01	2074	34544	177705	565	1344	165	supplemental	565	1	min	Collected application		EPL-2.0	bd0b13113626ba56f71901e50b4e5f2be15e890654e3de5897c82ecea9e67a27
+rmp02	2314	31195	157873	745	1439	130	supplemental	745	1	min	Collected application		EPL-2.0	6f79ff7ff8a835085cff8a4f1cf9c455978dde502e04e5ca9d96a2cfe2c3f18e
+rmp03	2225	22821	116443	766	1342	117	supplemental	766	1	min	Collected application		EPL-2.0	07f2269c20e597aebfb5b4f74346879da441c55e377a8ca897da55a5933f4c3a
+rmp04	2408	35127	180519	861	1443	104	supplemental	861	1	min	Collected application		EPL-2.0	45e1db172ff50719014f3cca593540ed1a200b7a6c362edc350a7409b3fc5ac6
+rmp05	292	974	4523	95	193	4	supplemental	95	1	min	Collected application		EPL-2.0	c4a7babc67102f513ae859523e964b87c3f36d10ac18bcf05da4d309aeadc758
+rmp06	254	679	2923	104	147	3	supplemental	104	1	min	Collected application		EPL-2.0	3894bab16809b38fc49ea5f5f398114edf07a3c5fa17ee739509bd82c411e96f
+rmp07	322	1216	5589	121	200	1	supplemental	121	1	min	Collected application		EPL-2.0	8e6e3c1e641da402d5aa546e97fbc1d6991cd0e30fc51692904a5ea7bc772f8f
+rmp08	329	1044	4750	122	193	14	supplemental	122	1	min	Collected application		EPL-2.0	cc6861fea5cd339985d6e0cf5fe257253bc0e5be5d13ab7a4c5dd52a1b4adee0
+rmp09	2534	28671	151641	917	1477	140	supplemental	917	1	min	Collected application		EPL-2.0	e9c8feb2034cbfba5def7d25c11f64115c66639793df6f9e69ce41fcd8b68e2f
+rmp10	2471	34938	188285	814	1532	125	supplemental	814	1	min	Collected application		EPL-2.0	45684ddc60dc8d09a69226260ccefb512d40134cbbe25faf28c705c15f4d66a1
+rmp11	3295	13798	80474	1443	1802	50	supplemental	1443	1	min	Collected application		EPL-2.0	e41f23aaaf1ab4cb51900136232d148b81831e57f5676623c2fe01f172bbd65b
+rmp12	381	3045	14681	116	237	28	supplemental	116	1	min	Collected application		EPL-2.0	ae74af031683c4170746b6318650b06dc838b96ed75e134a19e4718624fda8be
+rmp13	2888	26061	159009	1213	1561	114	supplemental	1213	1	min	Collected application		EPL-2.0	99bab1d6bd26ffa31acf2b00ab7658f2e0e393f63b817a3761f2dc35b6e5f702
+rmp14	3312	20570	126155	1292	1960	60	supplemental	1292	1	min	Collected application		EPL-2.0	cef10914f0a0820e0d2fd67dfe107936b9b0772b7eb65a584d521958d9aface8
+rmp15	4285	7500	31982	2029	2224	32	supplemental	2029	1	min	Collected application		EPL-2.0	7727eae480c906e0ca9a6bc14d29191581cbcfff3188fe8a7983b56422c09b41
+rmp16	3959	15195	96406	1941	1989	29	supplemental	1941	1	min	Collected application		EPL-2.0	a99c467aef6ade4d3139d6d36a903d7a2bee12881f8b5f58df554032d46b17a9
+rmp17	4870	10163	59859	2587	2252	31	supplemental	2587	1	min	Collected application		EPL-2.0	3f3ac39a5e4605e43965f2a8bc10e84c50b8ec6ed69465bc0c44a988312716b5
+rmp18	3575	49498	348872	1481	2003	91	supplemental	1481	1	min	Collected application		EPL-2.0	0dd15bee364d12d5a367e976c36c715d2f53f6ccd4b14d56c1ca39d464b031d5
+t1717	551	73885	325689	551	0	0	pure	326	0	min	MIPLIB 2017	https://miplib.zib.de/instance_details_t1717.html	Original MIPLIB terms	f2672f9861745d4c8925a40c7cf9344870c7b2da6136b1d331b176e4e22fc8bb
+t1722	338	36630	133096	338	0	0	pure	163	0	min	MIPLIB 2017	https://miplib.zib.de/instance_details_t1722.html	Original MIPLIB terms	c082336ddc966656cc084c90bdb281d50f5729901c8d6e0066196931c6c67daa

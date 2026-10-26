@@ -1,0 +1,8 @@
+{
+  "screened": 403,
+  "selected": 47,
+  "rule": "pure: binary variables, every raw row all +1 with bounds [1,1] or [-inf,1]; supplemental: remaining native SppGrasp-eligible models",
+  "feature_extractor": "OsiFeatures::compute plus raw-row checks and CbcSppGrasp::load",
+  "miplib_list_sha256": "c416f857083e2b7ec6edad87acc80437e2ea4be65debdbe7c4f3072881981c3f",
+  "miplib_solu_sha256": "04250ce7597bdc14f6341b323c8b4be42416102e370f93102fab1ff1f85aa977"
+}
