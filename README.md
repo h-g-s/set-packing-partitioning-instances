@@ -57,13 +57,17 @@ when complete. While the study is running, there is **no aggregate outcome
 claim**. Raw logs, solutions and progress histories remain in the experiment
 directory and can be archived separately without inflating Git history.
 
-Current study: [30-minute paired benchmark](results/2026-10-26-sppgrasp-1800s/STATUS.md).
+Current study: [Nauty-free 30-minute paired rerun](results/2026-10-26-sppgrasp-1800s-nonauty/STATUS.md).
 The launcher publishes the final validated tables and figures to that directory,
 and attaches raw evidence and frozen binaries to a GitHub release.
+The [first round](results/2026-10-26-sppgrasp-1800s/STATUS.md) remains preserved
+as incomplete: two Nauty stack-overflow crashes and four missing progress CSVs.
+The rerun removes Nauty and fixes initial-LP-stop CSV finalization in both arms;
+see its [source provenance](results/2026-10-26-sppgrasp-1800s-nonauty/SOURCE.md).
 
 ## Reproduction
 
-Build the clean dependency stack with `cbc-workspace`'s `config --opt --install`,
+Build the dependency stack with `cbc-workspace`'s `config --opt --no-nauty --install`,
 using the commits and flags recorded in the experiment manifest. Compile
 `tools/extract_features.cpp` against the installed `cbc` and `osi-clp`
 pkg-config packages. `tools/curate.py --help` describes fresh extraction.

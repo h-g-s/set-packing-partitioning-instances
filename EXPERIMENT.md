@@ -5,11 +5,22 @@ model and matched seed. Whole-set proven-optimal count, terminal gap, solve time
 missing incumbents and time to first incumbent accompany it. Cohort/family
 breakdowns are descriptive secondary results, not replacements for the full set.
 
-The clean CBC source is `coin-or/Cbc@97ca70c7dd1396e3aa66ff6ac0c4860b5fb6f12d`,
+The upstream CBC baseline is `coin-or/Cbc@97ca70c7dd1396e3aa66ff6ac0c4860b5fb6f12d`,
 including the off-default change `65e778e18abadcd13a84ad8a900969b08cbc2450`.
 Both arms use the identical executable and dependency installation. Full source
 commits, compiler, binary checksums, CPU and flags are in `manifest.json`.
 The normal working tree and its unrelated edits are not used.
+
+The first round was incomplete: two `t1717` ON runs exhausted Nauty's recursion
+stack, and four OFF runs on `ivu06`/`ivu06-big` stopped in the initial LP without
+creating a progress CSV. It is retained separately and is not mixed with the
+rerun. The replacement round builds **without Nauty** and applies only a
+reporting fix to this same upstream baseline: all early initial-LP returns now
+initialize/finalize their progress CSV, even without an incumbent. The local
+source commit, complete patch and checksums are recorded in the rerun's
+[SOURCE.md](results/2026-10-26-sppgrasp-1800s-nonauty/SOURCE.md).
+The reporting fix and dependency configuration are identical in both arms;
+no heuristic or search implementation is changed.
 
 For each seed in 6401, 6402, run every model with off, then every model with on:
 
@@ -23,7 +34,8 @@ Replace only `off` by `on` in the treatment arm. No explicit FPump override,
 artificial slacks, minimum slack fraction, workload retuning or forced applicability
 is introduced. Selection is structural and frozen before the performance runs.
 The raw-model eligibility table does not predict applicability after preprocessing.
-No solver implementation or parameter naming changes are part of this experiment.
+No solver search implementation or parameter naming changes are part of this
+experiment; the rerun includes the reporting-only fix documented above.
 
 GNU parallel uses 16 jobs on 16 physical cores. Each process has one BLAS/OpenMP
 thread. An external timeout at 2,160 seconds guards solver overruns and is

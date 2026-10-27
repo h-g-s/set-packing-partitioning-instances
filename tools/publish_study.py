@@ -97,7 +97,19 @@ def main():
         cwd=root,
         check=True,
     )
-    subprocess.run(["git", "push", "origin", "main"], cwd=root, check=True)
+    subprocess.run(
+        [
+            "git", "-c",
+            (
+                "core.sshCommand=ssh -o BatchMode=yes -o ConnectTimeout=10 "
+                "-o ServerAliveInterval=10 -o ServerAliveCountMax=2"
+            ),
+            "push", "origin", "main",
+        ],
+        cwd=root,
+        check=True,
+        timeout=120,
+    )
     subprocess.run(
         [
             "gh",
@@ -116,6 +128,7 @@ def main():
         ],
         cwd=root,
         check=True,
+        timeout=180,
     )
     print(f"Published {status}: {a.repository} / {a.tag}", flush=True)
 
