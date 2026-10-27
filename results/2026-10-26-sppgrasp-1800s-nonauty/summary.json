@@ -1,0 +1,31 @@
+{
+  "off": {
+    "runs": 94,
+    "optimal": 52,
+    "mean_pdi": 0.2838022810831604,
+    "mean_elapsed_s": 834.4181549929256,
+    "mean_capped_elapsed_s": 834.3572067935426,
+    "no_incumbent": 8,
+    "unknown_dual": 6,
+    "normalized_terminal_gap": 0.24055589306040384,
+    "common_finite_gap_runs": 86,
+    "mean_relative_gap_pct": 8.505901680423461
+  },
+  "on": {
+    "runs": 94,
+    "optimal": 50,
+    "mean_pdi": 0.20298666046615832,
+    "mean_elapsed_s": 857.4768078479681,
+    "mean_capped_elapsed_s": 857.4192361882554,
+    "no_incumbent": 2,
+    "unknown_dual": 4,
+    "normalized_terminal_gap": 0.17662718682743564,
+    "common_finite_gap_runs": 86,
+    "mean_relative_gap_pct": 8.69963285473856
+  },
+  "paired_pdi_delta_ci95_instance_bootstrap": [
+    -0.16058043391139476,
+    -0.01810092946764126
+  ],
+  "instance_count": 47
+}
