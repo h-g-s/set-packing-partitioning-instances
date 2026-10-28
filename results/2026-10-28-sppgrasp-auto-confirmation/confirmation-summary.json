@@ -1,0 +1,439 @@
+{
+  "complete": true,
+  "diagnostic_only": false,
+  "limitation": "Same 47-model collection used during tuning; not an instance holdout.",
+  "reporting_fix": {
+    "baseline": "97ca70c7dd1396e3aa66ff6ac0c4860b5fb6f12d",
+    "initial_lp_fix": "d76c74fc5a77f4d31b1134cfa7e90b466c92949e",
+    "preprocessing_fix": "f7ef1ae996441774bd1fe3490edd0d41ec8810df",
+    "next_fix": "259e7a48",
+    "supersedes": "/home/haroldo/.copilot/session-state/64ebfad0-8a74-473e-ba7e-733fffa59471/files/spp-auto-20261027/full-47-1800s",
+    "previous_valid": "562/564; OFF missing CSV, ON fractional export on ivu06/6602",
+    "scope": "reporting and saved-vector transfer only; no search/heuristic changes"
+  },
+  "arms": [
+    {
+      "arm": "off",
+      "runs": 188,
+      "optimal": 104,
+      "mean_pdi": 0.28512298772862055,
+      "mean_elapsed_s": 839.4191073496223,
+      "no_incumbent": 16,
+      "mean_terminal_penalty": 0.24345477860297884,
+      "common_gap_pairs": 172,
+      "mean_common_gap_pct": 8.831734579009133,
+      "transitions": {
+        "off": {
+          "proof_gains": [],
+          "proof_losses": []
+        },
+        "on": {
+          "proof_gains": [
+            "eilC76-2/6401",
+            "eilC76-2/6402"
+          ],
+          "proof_losses": []
+        }
+      }
+    },
+    {
+      "arm": "on",
+      "runs": 188,
+      "optimal": 102,
+      "mean_pdi": 0.20181783826724697,
+      "mean_elapsed_s": 849.1815146537606,
+      "no_incumbent": 4,
+      "mean_terminal_penalty": 0.17441503941187458,
+      "common_gap_pairs": 172,
+      "mean_common_gap_pct": 8.52202523990195,
+      "transitions": {
+        "off": {
+          "proof_gains": [],
+          "proof_losses": [
+            "eilC76-2/6401",
+            "eilC76-2/6402"
+          ]
+        },
+        "on": {
+          "proof_gains": [],
+          "proof_losses": []
+        }
+      }
+    },
+    {
+      "arm": "work500-keep-pump",
+      "runs": 188,
+      "optimal": 104,
+      "mean_pdi": 0.20002308860194826,
+      "mean_elapsed_s": 839.8505091958723,
+      "no_incumbent": 4,
+      "mean_terminal_penalty": 0.1715685738848281,
+      "common_gap_pairs": 172,
+      "mean_common_gap_pct": 8.274878035954018,
+      "transitions": {
+        "off": {
+          "proof_gains": [],
+          "proof_losses": []
+        },
+        "on": {
+          "proof_gains": [
+            "eilC76-2/6401",
+            "eilC76-2/6402"
+          ],
+          "proof_losses": []
+        }
+      }
+    }
+  ],
+  "cohorts": {
+    "all seeds": {
+      "off": {
+        "runs": 188,
+        "optimal": 104,
+        "mean_pdi": 0.28512298772862055,
+        "mean_elapsed_s": 839.4191073496223,
+        "no_incumbent": 16,
+        "common_gap_pairs": 172,
+        "mean_common_gap_pct": 8.831734579009133
+      },
+      "on": {
+        "runs": 188,
+        "optimal": 102,
+        "mean_pdi": 0.20181783826724697,
+        "mean_elapsed_s": 849.1815146537606,
+        "no_incumbent": 4,
+        "common_gap_pairs": 172,
+        "mean_common_gap_pct": 8.52202523990195
+      },
+      "work500-keep-pump": {
+        "runs": 188,
+        "optimal": 104,
+        "mean_pdi": 0.20002308860194826,
+        "mean_elapsed_s": 839.8505091958723,
+        "no_incumbent": 4,
+        "common_gap_pairs": 172,
+        "mean_common_gap_pct": 8.274878035954018
+      }
+    },
+    "original seeds": {
+      "off": {
+        "runs": 94,
+        "optimal": 52,
+        "mean_pdi": 0.28389673570960244,
+        "mean_elapsed_s": 832.5739554217553,
+        "no_incumbent": 8,
+        "common_gap_pairs": 86,
+        "mean_common_gap_pct": 8.501632356069116
+      },
+      "on": {
+        "runs": 94,
+        "optimal": 50,
+        "mean_pdi": 0.20301851370287494,
+        "mean_elapsed_s": 857.5644803706915,
+        "no_incumbent": 2,
+        "common_gap_pairs": 86,
+        "mean_common_gap_pct": 8.715994691583779
+      },
+      "work500-keep-pump": {
+        "runs": 94,
+        "optimal": 52,
+        "mean_pdi": 0.20052517303025805,
+        "mean_elapsed_s": 836.5233730736702,
+        "no_incumbent": 2,
+        "common_gap_pairs": 86,
+        "mean_common_gap_pct": 8.301652278205427
+      }
+    },
+    "fresh seeds": {
+      "off": {
+        "runs": 94,
+        "optimal": 52,
+        "mean_pdi": 0.28634923974763865,
+        "mean_elapsed_s": 846.2642592774894,
+        "no_incumbent": 8,
+        "common_gap_pairs": 86,
+        "mean_common_gap_pct": 9.161836801949152
+      },
+      "on": {
+        "runs": 94,
+        "optimal": 52,
+        "mean_pdi": 0.20061716283161898,
+        "mean_elapsed_s": 840.7985489368298,
+        "no_incumbent": 2,
+        "common_gap_pairs": 86,
+        "mean_common_gap_pct": 8.328055788220123
+      },
+      "work500-keep-pump": {
+        "runs": 94,
+        "optimal": 52,
+        "mean_pdi": 0.1995210041736385,
+        "mean_elapsed_s": 843.1776453180745,
+        "no_incumbent": 2,
+        "common_gap_pairs": 86,
+        "mean_common_gap_pct": 8.24810379370261
+      }
+    }
+  },
+  "candidate_transitions": {
+    "off": {
+      "proof_gains": [],
+      "proof_losses": [],
+      "gap_regressions_over_001_percentage_points": [
+        {
+          "run": "cod105/6401",
+          "control": 33.61257200000001,
+          "candidate": 33.626339499999986
+        },
+        {
+          "run": "cod105/6402",
+          "control": 33.507519666666674,
+          "candidate": 33.534789583333335
+        },
+        {
+          "run": "ds/6401",
+          "control": 70.10090770511879,
+          "candidate": 81.32828456415524
+        },
+        {
+          "run": "ds/6402",
+          "control": 73.82692871801947,
+          "candidate": 82.44222838552838
+        },
+        {
+          "run": "ds/6602",
+          "control": 75.34252713352448,
+          "candidate": 91.98872325350659
+        },
+        {
+          "run": "eilA101-2/6601",
+          "control": 12.88197757167012,
+          "candidate": 13.391272373072558
+        },
+        {
+          "run": "eilA101-2/6602",
+          "control": 13.367285578440185,
+          "candidate": 14.191172060687643
+        },
+        {
+          "run": "eilB101.2/6401",
+          "control": 7.019922075098691,
+          "candidate": 13.566564971741549
+        },
+        {
+          "run": "eilB101.2/6402",
+          "control": 7.932358704736421,
+          "candidate": 11.307070266899842
+        },
+        {
+          "run": "rmp11/6401",
+          "control": 6.111146967123217,
+          "candidate": 10.47023601550204
+        },
+        {
+          "run": "rmp11/6402",
+          "control": 5.270735362057964,
+          "candidate": 9.712790760456015
+        },
+        {
+          "run": "rmp11/6601",
+          "control": 7.759717325770973,
+          "candidate": 8.546509696946005
+        },
+        {
+          "run": "rmp13/6401",
+          "control": 0.0206125270688438,
+          "candidate": 0.0315877781961292
+        },
+        {
+          "run": "rmp13/6402",
+          "control": 0.046884461264329116,
+          "candidate": 0.06537332379905349
+        },
+        {
+          "run": "rmp13/6602",
+          "control": 0.030026412656209887,
+          "candidate": 0.044624461881664614
+        },
+        {
+          "run": "rmp14/6601",
+          "control": 0.29068800445017073,
+          "candidate": 0.3663222236926105
+        },
+        {
+          "run": "rmp14/6602",
+          "control": 0.27479178630292034,
+          "candidate": 0.4633550213435278
+        },
+        {
+          "run": "rmp18/6402",
+          "control": 0.5063460799091228,
+          "candidate": 0.751098780548569
+        },
+        {
+          "run": "rmp18/6601",
+          "control": 0.5979216747794008,
+          "candidate": 0.692447383233772
+        },
+        {
+          "run": "t1717/6401",
+          "control": 29.491434337082364,
+          "candidate": 31.083011504406798
+        },
+        {
+          "run": "t1717/6402",
+          "control": 30.129184286486545,
+          "candidate": 32.07847319021467
+        },
+        {
+          "run": "t1722/6401",
+          "control": 21.67539875929565,
+          "candidate": 23.30678546323102
+        },
+        {
+          "run": "t1722/6601",
+          "control": 23.105167204492037,
+          "candidate": 23.67525776301619
+        },
+        {
+          "run": "t1722/6602",
+          "control": 14.519075648608677,
+          "candidate": 26.985007283765455
+        }
+      ]
+    },
+    "on": {
+      "proof_gains": [
+        "eilC76-2/6401",
+        "eilC76-2/6402"
+      ],
+      "proof_losses": [],
+      "gap_regressions_over_001_percentage_points": [
+        {
+          "run": "cod105/6401",
+          "control": 33.57170958333334,
+          "candidate": 33.626339499999986
+        },
+        {
+          "run": "cod105/6601",
+          "control": 33.456540083333316,
+          "candidate": 33.483774666666655
+        },
+        {
+          "run": "ds/6602",
+          "control": 73.41766604270704,
+          "candidate": 91.98872325350659
+        },
+        {
+          "run": "ds-big/6402",
+          "control": 87.75135786497282,
+          "candidate": 94.39317595678487
+        },
+        {
+          "run": "eilB101.2/6401",
+          "control": 5.970755884678007,
+          "candidate": 13.566564971741549
+        },
+        {
+          "run": "eilB101.2/6601",
+          "control": 3.040139088245508,
+          "candidate": 5.534134736586555
+        },
+        {
+          "run": "eilD76.2/6402",
+          "control": 5.253659896905109,
+          "candidate": 5.298809356547466
+        },
+        {
+          "run": "pdistuchoa/6402",
+          "control": 23.92484336170213,
+          "candidate": 23.95382153191489
+        },
+        {
+          "run": "rmp11/6402",
+          "control": 8.92146781611188,
+          "candidate": 9.712790760456015
+        },
+        {
+          "run": "rmp11/6601",
+          "control": 7.7326500849463216,
+          "candidate": 8.546509696946005
+        },
+        {
+          "run": "rmp11/6602",
+          "control": 6.850999116788845,
+          "candidate": 8.987721914728604
+        },
+        {
+          "run": "rmp13/6602",
+          "control": 0.03124618256140409,
+          "candidate": 0.044624461881664614
+        },
+        {
+          "run": "rmp14/6601",
+          "control": 0.33342150181529134,
+          "candidate": 0.3663222236926105
+        },
+        {
+          "run": "rmp14/6602",
+          "control": 0.25865767546944807,
+          "candidate": 0.4633550213435278
+        },
+        {
+          "run": "rmp16/6601",
+          "control": 33.72837152551514,
+          "candidate": 35.02141640688533
+        },
+        {
+          "run": "rmp16/6602",
+          "control": 36.97225056238622,
+          "candidate": 37.571818486236396
+        },
+        {
+          "run": "rmp18/6402",
+          "control": 0.5239951602147696,
+          "candidate": 0.751098780548569
+        },
+        {
+          "run": "rmp18/6601",
+          "control": 0.4067612388628464,
+          "candidate": 0.692447383233772
+        },
+        {
+          "run": "rmp18/6602",
+          "control": 0.6121176736769443,
+          "candidate": 0.6570424973849709
+        },
+        {
+          "run": "t1717/6402",
+          "control": 31.12961683627398,
+          "candidate": 32.07847319021467
+        },
+        {
+          "run": "t1717/6601",
+          "control": 30.80197396499126,
+          "candidate": 30.941732905580945
+        },
+        {
+          "run": "t1717/6602",
+          "control": 31.927361919878233,
+          "candidate": 32.320268085255314
+        },
+        {
+          "run": "t1722/6401",
+          "control": 21.089081420922156,
+          "candidate": 23.30678546323102
+        },
+        {
+          "run": "t1722/6601",
+          "control": 20.646692316715544,
+          "candidate": 23.67525776301619
+        },
+        {
+          "run": "t1722/6602",
+          "control": 21.60979711894976,
+          "candidate": 26.985007283765455
+        }
+      ]
+    }
+  }
+}

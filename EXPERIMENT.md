@@ -1,4 +1,33 @@
-# Preregistered paired comparison
+# Experiment protocols
+
+## Final three-arm confirmation
+
+The [final report](results/2026-10-28-sppgrasp-auto-confirmation/UPDATED-REPORT.md)
+covers all 47 models with four matched seeds (6401, 6402, 6601, 6602) and three
+arms: OFF, unchanged ON, and
+`-sppGrasp on -sppGraspWork 500 -sppGraspFpump on`.
+Each solve has a 1,800-second elapsed limit, `-threads 0`, and one BLAS/OpenMP
+thread. GNU parallel dispatches 16 jobs; all 564 tasks are shuffled together
+using scheduling seed 6500 rather than running OFF before ON.
+
+The candidate was selected from a seven-policy, 11-model screen; this is not
+an untouched instance holdout or a preregistered choice of candidate.
+Original and fresh seeds are reported separately as well as together.
+All arms use one frozen optimized Nauty-free executable, based on the original
+master baseline plus two reporting-only fixes (initial-LP and preprocessing
+timeout exits). The full confirmation was restarted after repairing the
+preprocessing exit; no runs from the earlier incomplete round enter it.
+
+The [manifest](results/2026-10-28-sppgrasp-auto-confirmation/manifest.json)
+records every exact command, task, input hash and source revision.
+The release contains the original launcher snapshots, logs, solutions,
+progress histories, validator results and frozen binaries.
+Validation and PDI conventions below remain unchanged; the final conventional
+gap uses the same 172 valid triples in all arms. Report individual proof
+transitions, not just totals. The tested candidate is evidence for an AUTO
+proposal, not an implemented AUTO/default change.
+
+## Original preregistered paired comparison
 
 The principal outcome is mean PDI on **all 47 models**, with equal weight per
 model and matched seed. Whole-set proven-optimal count, terminal gap, solve time,

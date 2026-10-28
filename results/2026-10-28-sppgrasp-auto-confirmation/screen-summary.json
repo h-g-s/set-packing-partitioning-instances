@@ -1,0 +1,78 @@
+{
+  "complete": true,
+  "diagnostic_only": false,
+  "arms": [
+    {
+      "arm": "off",
+      "runs": 188,
+      "optimal": 104,
+      "mean_pdi": 0.28512298772862055,
+      "mean_elapsed_s": 839.4191073496223,
+      "no_incumbent": 16,
+      "mean_terminal_penalty": 0.24345477860297884,
+      "common_gap_pairs": 172,
+      "mean_common_gap_pct": 8.831734579009133,
+      "transitions": {
+        "off": {
+          "proof_gains": [],
+          "proof_losses": []
+        },
+        "on": {
+          "proof_gains": [
+            "eilC76-2/6401",
+            "eilC76-2/6402"
+          ],
+          "proof_losses": []
+        }
+      }
+    },
+    {
+      "arm": "on",
+      "runs": 188,
+      "optimal": 102,
+      "mean_pdi": 0.20181783826724697,
+      "mean_elapsed_s": 849.1815146537606,
+      "no_incumbent": 4,
+      "mean_terminal_penalty": 0.17441503941187458,
+      "common_gap_pairs": 172,
+      "mean_common_gap_pct": 8.52202523990195,
+      "transitions": {
+        "off": {
+          "proof_gains": [],
+          "proof_losses": [
+            "eilC76-2/6401",
+            "eilC76-2/6402"
+          ]
+        },
+        "on": {
+          "proof_gains": [],
+          "proof_losses": []
+        }
+      }
+    },
+    {
+      "arm": "work500-keep-pump",
+      "runs": 188,
+      "optimal": 104,
+      "mean_pdi": 0.20002308860194826,
+      "mean_elapsed_s": 839.8505091958723,
+      "no_incumbent": 4,
+      "mean_terminal_penalty": 0.1715685738848281,
+      "common_gap_pairs": 172,
+      "mean_common_gap_pct": 8.274878035954018,
+      "transitions": {
+        "off": {
+          "proof_gains": [],
+          "proof_losses": []
+        },
+        "on": {
+          "proof_gains": [
+            "eilC76-2/6401",
+            "eilC76-2/6402"
+          ],
+          "proof_losses": []
+        }
+      }
+    }
+  ]
+}

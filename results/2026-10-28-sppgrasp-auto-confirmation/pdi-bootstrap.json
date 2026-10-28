@@ -1,0 +1,11 @@
+{
+  "candidate_minus_off": -0.0850998991266723,
+  "ci95": [
+    -0.16648888977367768,
+    -0.022779494818331403
+  ],
+  "resampling_unit": "instance; all four seeds kept together",
+  "samples": 10000,
+  "seed": 20261028,
+  "limitation": "conditional on this selected, tuning-exposed collection"
+}
